@@ -4,22 +4,31 @@
     "slug": "fisa-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/images/fisa-logo.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "fisa",
+    "splash": {
+      "image": "./assets/images/fisa-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0F0F13"
+    },
     "ios": {
       "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      },
-      "predictiveBackGestureEnabled": false
+        "foregroundImage": "./assets/images/fisa-logo.png",
+        "backgroundColor": "#0F0F13"
+      }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/images/fisa-logo.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      "expo-splash-screen"
+    ]
   }
 }
