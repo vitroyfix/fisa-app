@@ -19,7 +19,7 @@ export default function WelcomeScreen({ navigation }) {
       {/* ── Logo Section ── */}
       <View style={styles.logoSection}>
         <Image
-          source={require('../../../assets/fisa.jpg')}
+          source={require('../../../assets/fisa1.png')}
           style={styles.logo}
           resizeMode="contain"
         />
